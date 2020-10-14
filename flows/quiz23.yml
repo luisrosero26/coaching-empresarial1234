@@ -1,0 +1,108 @@
+completion_text: |-
+  <p>lorem ipsum</p>
+description: |-
+  lorem ipsum
+groups:
+- id: intro
+  pages:
+  - content: "<p>lorem ipsum</p> "
+    id: welcome
+    title: quiz 2
+    type: Page
+- id: quiz_start
+  pages:
+  - answers:
+    - <plain>Respuesta a l
+    id: quizquestion42
+    prompt: ''
+    title: Pregunta 1
+    type: TextQuestion
+    value: 1.0
+  - answers:
+    - <plain>Respuesta a la pregunta 2
+    id: quizquestion43
+    prompt: ''
+    title: Pregunta 2
+    type: TextQuestion
+    value: 1.0
+  - answers:
+    - <plain>Respuesta a la pregunta 3
+    id: quizquestion44
+    prompt: ''
+    title: Pregunta 3
+    type: TextQuestion
+    value: 1.0
+  - answers:
+    - <plain>Respuesta a la pregunta 4
+    id: quizquestion45
+    prompt: ''
+    title: Pregunta 4
+    type: TextQuestion
+    value: 1.0
+  - answers:
+    - <plain>Respuesta a la pregunta 5
+    id: quizquestion46
+    prompt: ''
+    title: Pregunta 5
+    type: TextQuestion
+    value: 1.0
+  - answers:
+    - <plain>Respuesta  a la pregunta 6
+    id: quizquestion47
+    prompt: ''
+    title: Pregunta 6
+    type: TextQuestion
+    value: 1.0
+  - answers:
+    - <plain>Respuesta a la pregunta 7
+    id: quizquestion49
+    prompt: ''
+    title: Pregunta  7
+    type: TextQuestion
+    value: 1.0
+  - answers:
+    - <plain>Respuesta a la pregunta 8
+    id: quizquestion50
+    prompt: ''
+    title: Pregunta 8
+    type: TextQuestion
+    value: 0.0
+  - answers:
+    - <plain>Respuesta a la pregunta 9
+    id: quizquestion48
+    prompt: ''
+    title: Pregunta  9
+    type: TextQuestion
+    value: 1.0
+  - answers:
+    - <plain>lorem ipsum
+    id: quizquestion51
+    prompt: ''
+    title: Pregunta 10
+    type: TextQuestion
+    value: 1.0
+  shuffle: true
+rules:
+  access:
+  - permissions:
+    - view
+    - submit_answer
+    - end_session
+    - see_correctness
+    - see_answer_after_submission
+  grade_aggregation_strategy: use_latest
+  grade_identifier: quiz23
+  grading:
+  - credit_percent: 100
+  start:
+  - if_before: 2020-10-31 16:22:04+00:00
+    if_has_fewer_sessions_than: 1
+    if_has_role:
+    - student
+    - ta
+    - instructor
+    may_list_existing_sessions: true
+    may_start_new_session: true
+  - may_list_existing_sessions: true
+    may_start_new_session: false
+title: quiz 2
