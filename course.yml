@@ -1,0 +1,53 @@
+chunks:
+- content: ''
+  flows:
+  - flow_id: flow19
+    next_flow: quiz20
+    pages:
+    - flow_id: page52
+      title: "Nociones b\xE1sicas, or\xEDgenes y coaching"
+    title: "Nociones b\xE1sicas, or\xEDgenes y coaching"
+    title_next_flow: Quiz
+  - flow_id: flow21
+    next_flow: null
+    pages:
+    - flow_id: page53
+      title: Unidad 1- fundamentos del coaching
+    title: Unidad 1- fundamentos del coaching
+    title_next_flow: ''
+  - flow_id: flow22
+    next_flow: quiz23
+    pages:
+    - flow_id: page54
+      title: Esencia y funciones del coaching
+    title: Esencia y funciones del coaching
+    title_next_flow: Quiz
+  id: welcome
+  introduction: "<div class=\"about-course\" style=\"color: rgb(3, 27, 78); font-family:\
+    \ Muli, sans-serif; font-size: medium;\"><h4 style=\"font-weight: 600; margin:\
+    \ 0px;\">Acerca del curso</h4><p style=\"line-height: 1.8; color: rgba(3, 27,\
+    \ 78, 0.8); margin-top: 10px;\">El curso de coaching le ayudar\xE1 a comprender\
+    \ c\xF3mo fomentar el desarrollo personal, acad\xE9mico, laboral y econ\xF3mico\
+    \ de las personas, a trav\xE9s de una serie de t\xE9cnicas para el establecimiento\
+    \ y logro de metas. Es f\xE1cil de aprender y solo se requiere tener conocimientos\
+    \ elementales.<br><br>Al finalizar el curso de coaching usted podr\xE1 prestar\
+    \ sus servicios de asistencia a empresas, equipos de trabajo, emprendedores, profesionales\
+    \ o cualquier persona que busque un crecimiento personal y profesional.</p></div><div\
+    \ class=\"youll-learn\" style=\"margin-top: 20px; color: rgb(3, 27, 78); font-family:\
+    \ Muli, sans-serif; font-size: medium;\"><h4 style=\"font-weight: 600; margin:\
+    \ 0px;\">\xBFQu\xE9 aprender\xE1s?</h4><p style=\"line-height: 1.8; color: rgba(3,\
+    \ 27, 78, 0.8); margin-top: 10px;\">A lo largo del curso de coaching, esperamos\
+    \ que nuestros estudiantes puedan:<br>a) Conocer la naturaleza y la esencia del\
+    \ coaching.<br>b) Entender los aspectos que aborda el coaching para fomentar el\
+    \ desarrollo personal y profesional de los seres humanos.<br>c) Asimilar una serie\
+    \ de t\xE9cnicas y estrategias para comprender c\xF3mo se puede fomentar el desarrollo\
+    \ personal.<br>d) Examinar una serie de t\xE9cnicas y estrategias que ayuden a\
+    \ promover el desarrollo de las personas dentro de un contexto laboral y profesional.<br>e)\
+    \ Analizar la manera c\xF3mo el coaching puede promover el desarrollo acad\xE9\
+    mico y formativo de las personas, por medio de la asimilaci\xF3n de un conjunto\
+    \ de t\xE9cnicas.<br>f) Entender c\xF3mo se puede fomentar el desarrollo econ\xF3\
+    mico de las personas, por medio de los fundamentos de la educaci\xF3n financiera\
+    \ y un conjunto de t\xE9cnicas.<br>g) Asimilar una serie de estrategias orientadas\
+    \ a fortalecer las habilidades sociales de las personas.</p></div>"
+  rules: []
+  title: Coaching empresarial
