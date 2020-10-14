@@ -1,0 +1,86 @@
+completion_text: |-
+  <p>Terminado quiz 1</p>
+description: "Esto es un quiz de prueba para el m\xF3dulo 1 de coaching empresarial"
+groups:
+- id: intro
+  pages:
+  - content: " "
+    id: welcome
+    title: Quiz 1
+    type: Page
+- id: quiz_start
+  pages:
+  - choices:
+    - ~CORRECT~ Resp 3
+    - Resp 1
+    - Resp 2
+    - Resp 4
+    id: quizquestion37
+    prompt: ''
+    title: Pregunta 1
+    type: ChoiceQuestion
+    value: 1.0
+  - choices:
+    - "~CORRECT~ esta s\xED"
+    - esta no
+    - esta tampoco
+    - a lo mejor no
+    id: quizquestion38
+    prompt: ''
+    title: Pregunta 2
+    type: ChoiceQuestion
+    value: 1.0
+  - choices:
+    - "esta s\xED"
+    - esta no
+    - ~CORRECT~ esta tampoco
+    - a lo mejor no
+    id: quizquestion39
+    prompt: ''
+    title: Pregunta 3
+    type: ChoiceQuestion
+    value: 1.0
+  - choices:
+    - "esta s\xED"
+    - ~CORRECT~ esta no
+    - esta tampoco
+    - ~CORRECT~ a lo mejor no
+    id: quizquestion41
+    prompt: ''
+    title: Pregunta 5
+    type: ChoiceQuestion
+    value: 1.0
+  - choices:
+    - "esta s\xED"
+    - ~CORRECT~ esta no
+    - "era la respuesta que dec\xEDa arriba"
+    id: quizquestion40
+    prompt: ''
+    title: Pregunta 4
+    type: ChoiceQuestion
+    value: 1.0
+  shuffle: true
+rules:
+  access:
+  - permissions:
+    - view
+    - submit_answer
+    - end_session
+    - see_correctness
+    - see_answer_after_submission
+  grade_aggregation_strategy: use_latest
+  grade_identifier: quiz20
+  grading:
+  - credit_percent: 100
+  start:
+  - if_before: 2020-10-31 15:42:12+00:00
+    if_has_fewer_sessions_than: 1
+    if_has_role:
+    - student
+    - ta
+    - instructor
+    may_list_existing_sessions: true
+    may_start_new_session: true
+  - may_list_existing_sessions: true
+    may_start_new_session: false
+title: Quiz 1
